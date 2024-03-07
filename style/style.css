@@ -16,3 +16,18 @@ header {
     height: 300px;
     padding: 10px;
 }
+
+.footer{
+    display: block;
+    background-color: rgb(139, 129, 225);
+    text-align: center;
+}
+
+.logo img{
+    width: 100px
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
