@@ -41,4 +41,34 @@ nav ul li a {
 .home-button {
     background-color: white;
     color: black;
+    height: 300px;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.logo img{
+    width: 100px
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes img{
+    width: 100px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.info p{
+    margin: 10px;
 }
