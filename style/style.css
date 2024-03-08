@@ -17,9 +17,9 @@ header {
     padding: 10px;
 }
 
-.footer{
+footer{
     display: block;
-    background-color: rgb(139, 129, 225);
+    background-color: darkcyan;
     text-align: center;
 }
 
@@ -30,4 +30,17 @@ header {
 .redes{
     display: flex;
     justify-content: center;
+}
+
+.redes img{
+    width: 100px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.info p{
+    margin: 10px;
 }
