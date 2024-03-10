@@ -76,6 +76,7 @@ footer{
 
 .top{
     display: flex;
+    justify-content: center;
 }
 
 .tituloForm{
@@ -89,11 +90,13 @@ footer{
     text-align: center;
     border: 1px solid black;
     margin: 50px;
-
+}
+.datosDeContacto h2{
+    margin-bottom: 50px;
 }
 .maps{
     display: inline-block;
-    width: 500px;
+    width: 1000px;
     height: 400px;
     text-align: center;
     border: 1px solid black;
@@ -106,6 +109,7 @@ footer{
     text-align: center;
     margin: 10px;
     justify-content: center;
+    margin-bottom: 50px;
 
 }
 .form{
