@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOP</title>
     <link rel="stylesheet" href="../style/style.css">
-    <script type="text/javascript" src="src/script.js" defer></script>
+    <script type="text/javascript" src="../src/script.js"></script>
 </head>
 
 <body>
@@ -24,7 +24,47 @@
         </nav>
     </header>
 
-    <main>
+    <main class="mainshop">
+
+        <section class="catalogo">
+            <div class="bicis">
+            <img src="../assets/bebe.jpg" alt="Bebe">
+            <p class="bebe">TurboBicicleta3000 999999€</p>
+            <button onclick="agregarAlCarrito('Bebe', 999999)">Agregar al carrito</button>
+            </div>
+        </section>
+
+    
+        <section class="catalogo">
+             <div class="bicis">
+             <img src="../assets/BiciOrbea.jpg" alt="Orbea">
+             <p class="bebe">Orbea 5000€</p>
+            <button onclick="agregarAlCarrito('Orbea', 5000)">Agregar al carrito</button>
+        </div>
+        </section>
+
+        <section class="catalogo">
+            <div class="bicis">
+                <img src="../assets/Canondale.jpg" alt="Canondale">
+                <p class="bebe">Canondale 12000€</p>
+                <button onclick="agregarAlCarrito('Canondale', 12000)">Agregar al carrito</button>
+            </div>
+        </section>
+
+
+    
+
+        
+        <section>
+        <section class="carrito">
+        <h2>Carrito</h2>
+        <div id="carrito-lista">
+        </div>
+        <p>Total: <span id="total">0</span>€</p>
+        </section>
+
+
+
 
     </main>
 
@@ -42,6 +82,7 @@
         </div>
     
     </footer>
+    
 </body>
 
 </html>
