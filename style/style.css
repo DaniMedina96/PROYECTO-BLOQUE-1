@@ -17,6 +17,7 @@ header {
 
 .header-left h1 {
     margin: 0;
+
 }
 
 nav ul {
@@ -44,6 +45,16 @@ nav ul li a {
     color: black;
     height: 300px;
     padding: 10px;
+}
+.quienesSomos {
+    margin: 0px;
+    padding:0px;
+    text-align: left;
+    margin-right: 0px;
+    border-radius: 50px;
+    border-bottom: 15px;
+   
+
 }
 
 footer{
@@ -101,11 +112,32 @@ figure {
     text-align: left;
 }
 
-.image-left img{
-    display: block;
-    margin-left: 0px;
-    border-radius: 15px;
-    border-bottom: 50px;
+.image-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50svh;
+    gap: 30px;
+}
+
+.nicki {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.nike {
+    width: 50%;
+    background-color: darkcyan;
+    padding: 10px;
+}
+.tittle{
+    display: flex;
+    flex-direction: column;
+    width:30px;
+    background-color: darkcyan
 }
 
 figcaption {
