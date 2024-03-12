@@ -2,8 +2,11 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:'Arial' sans-serif;
 }
 
+
+/* CSS HEADER*/
 header {
     background-color: darkcyan;
     font-style: arial;
@@ -20,7 +23,7 @@ header {
 }
 
 .header-left h1 {
-    margin: 0; 
+    margin: 0;
 }
 nav{
     margin-right: 50px;
@@ -54,6 +57,7 @@ nav ul li a {
 }
 
 
+/* CSS FOOTER*/
 
 footer{
     display: block;
@@ -74,6 +78,8 @@ footer{
     width: 100px;
 }
 
+
+/*CSS FORM*/
 
 
 .info{
@@ -141,6 +147,8 @@ textarea{
     margin: 10px;
 }
 
+/* CSS SHOP*/
+
 
 .bicis img{
 width: 80%;
@@ -193,3 +201,82 @@ height: 80%;
     cursor: pointer;
 }
 
+
+
+/* A PARTIR DE AQUI, ESTILOS DEL HOME*/
+
+.quienesSomos {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    margin-right: 0px;
+    border-radius: 50px;
+    border-bottom: 15px;
+
+
+}
+
+#history {
+    padding: 10px;
+    text-align:justify;
+    margin-left: 30px; 
+    margin-right: 30px;
+    margin-top: 30px;
+    color:darkcyan;
+    background-color: white;
+}
+
+#history p{
+    color: white;
+    text-align: center;
+    text-decoration-thickness: 5px;
+    background-color: darkcyan;
+     /*Me permite cambiar el grosor del underline*/
+    /*animation: infinite;
+    animation-delay:2s;*/
+
+}
+
+figure {
+    text-align: left;
+}
+
+.image-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50svh;
+    gap: 30px;
+}
+
+.nicki {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.nike {
+    width: 50%;
+    background-color: darkcyan;
+    padding: 10px;
+}
+.tittle{
+    display: flex;
+    flex-direction: column;
+    width:30px;
+    background-color: darkcyan
+}
+
+figcaption {
+    margin-left: 0px;
+    color:aliceblue;
+}
+
+.main_home {
+    background-image:url(../assets/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
