@@ -22,6 +22,7 @@ header {
 
 }
 
+
 .header-left h1 {
     margin: 0;
 }
@@ -100,14 +101,24 @@ footer{
 .tituloForm{
     display: block;
     text-align: center;
+    border: 2px solid darkcyan;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px darkcyan;
 }
 .datosDeContacto{
     display: inline-block;
     width: 500px;
     height: 400px;
     text-align: center;
-    border: 1px solid black;
-    margin: 50px;
+    border: 2px solid darkcyan;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px darkcyan;
 }
 .datosDeContacto h2{
     margin-bottom: 50px;
@@ -117,8 +128,12 @@ footer{
     width: 1000px;
     height: 400px;
     text-align: center;
-    border: 1px solid black;
-    margin: 50px;
+    border: 2px solid darkcyan;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px darkcyan;
 
 }
 
@@ -133,9 +148,13 @@ footer{
 .form{
     padding: 10px;
     width: 500px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px darkcyan;
     
 
 }
