@@ -126,10 +126,16 @@ footer{
     border-radius: 10px;
     margin: 10px;
     background-color: #f2f2f2;
-    box-shadow: 0 0 5px darkcyan;
+    box-shadow: 0 0 5px 5px darkcyan;
 }
 .datosDeContacto h2{
     margin-bottom: 50px;
+}
+.tabladatos{
+    flex-wrap: wrap;
+}
+.tabladatos td{
+    width: 10%;
 }
 .maps{
     display: inline-block;
@@ -141,7 +147,7 @@ footer{
     border-radius: 10px;
     margin: 10px;
     background-color: #f2f2f2;
-    box-shadow: 0 0 5px darkcyan;
+    box-shadow: 0 0 5px 5px darkcyan;
 
 }
 
@@ -162,7 +168,7 @@ footer{
     border-radius: 10px;
     margin: 10px;
     background-color: #f2f2f2;
-    box-shadow: 0 0 5px darkcyan;
+    box-shadow: 0 0 5px 5px darkcyan;
     
 
 }
