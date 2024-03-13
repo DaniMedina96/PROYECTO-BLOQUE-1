@@ -243,7 +243,6 @@ textarea{
     transition: 0.5s;
     box-shadow: 0 0 5px darkcyan;
     cursor: pointer;
-    rotate: 360deg;
 }
 
 
