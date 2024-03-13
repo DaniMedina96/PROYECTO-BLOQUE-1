@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
+    overflow-x: hidden;
 
 }
 
@@ -24,6 +25,7 @@ header {
     position: sticky;
     width: 100%;
     top: 0px;
+    z-index: 1000;
 
 }
 
@@ -231,7 +233,15 @@ height: 80%;
 
 /* A PARTIR DE AQUI, ESTILOS DEL HOME*/
 
+.historyposition{
+    display: flex;
+    justify-content: center;
+}
 
+.main_home{
+        width: 100vw;
+        
+}
 
 .quienesSomos {
     margin: 0px;
@@ -245,7 +255,8 @@ height: 80%;
 }
 
 #history {
-    text-align:justify;
+    display: flex;
+    text-align:center;
     color:darkcyan;
     border: 2px solid darkcyan;
     padding: 5px;
@@ -254,6 +265,8 @@ height: 80%;
     background-color: #f2f2f2;
     box-shadow: 0 0 5px darkcyan;
     margin: 10px;
+    width: 90%;
+    flex-direction: column;
 }
 
 #history p{
@@ -301,15 +314,15 @@ figure {
     }
 
     25% {
-        transform: translateX(0);
+        transform: translateX(-100%);
     }
 
     50% {
-        transform: translateX(-200%);
+        transform: translateX(-100%);
     }
 
     75% {
-        transform: translateX(-200%);
+        transform: translateX(-100%);
     }
 
     100% {
@@ -338,6 +351,7 @@ figcaption {
     align-items: center;
     height: 100vh;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Estilos para las secciones */
