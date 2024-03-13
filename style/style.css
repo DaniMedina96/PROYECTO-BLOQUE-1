@@ -15,7 +15,6 @@ body {
 /* CSS HEADER*/
 header {
     background-color: darkcyan;
-    font-style: arial;
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -176,57 +175,75 @@ textarea{
 }
 
 /* CSS SHOP*/
+#pagar {
+    background-color: darkcyan;
+    color: white;
+}
 
-
+.boton {
+    background-color: darkcyan;
+    color: white;
+}
 .bicis img{
-width: 80%;
-margin: 5px;
-height: 80%;
+    width: 400px;
+    margin: 5px;
+    height: 300px;
 }
 
 .mainshop {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px;
-    font: 24px;
-    font-style: arial;}
-
-.catalogo{
     text-align: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-height: 50%;
     margin: 20px;
     font-size: large;
-    font-style: arial;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    width: 75%;
     border: 2px solid darkcyan;
     padding: 25px;
     border-radius: 10px;
-    margin: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px darkcyan;
+}
+
+.catalogo{
+    margin: 20px;
+    font-size: large;
+    width: 75%;
+    border: 2px solid darkcyan;
+    padding: 25px;
+    border-radius: 10px;
     background-color: #f2f2f2;
     box-shadow: 0 0 5px darkcyan;
 }
 
 
 .carrito{
-    width: 65%;
+    width: auto;
+    position: fixed;
+    top: 10%;
+    right: 15px;
+    margin: 20px;
+    font-size: large;
+    align-items: center;
     border: 2px solid darkcyan;
     padding: 25px;
     border-radius: 10px;
     margin: 10px;
     background-color: #f2f2f2;
     box-shadow: 0 0 5px darkcyan;
-    flex: auto;
+
     
 }
 
 .bicis img:hover{
-    transform: scale(1.1);
+   transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0 0 5px darkcyan;
     cursor: pointer;
+    rotate: 360deg;
 }
 
 
@@ -370,3 +387,10 @@ figcaption {
     text-align: center;
 
 }
+.main_home {
+    background-image:url(../assets/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
