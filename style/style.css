@@ -330,8 +330,8 @@ figure {
     text-align: left;
 }
 .toppage{
-    display: flex;
-    width: 500px;;
+    display: block;
+
 
 
 }
@@ -391,13 +391,26 @@ figcaption {
 }
 
 .textdown {
-    display: flex;
+   /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 130vh; /*FIXEO DE LOS CUADRADOS BLANCOS*/
-    margin-top: 50px;
-    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+   
+}
+
+.cuadros{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Estilos para las secciones */
