@@ -14,19 +14,25 @@ body {
 
 /* CSS HEADER*/
 header {
-    background-color: darkcyan;
-    background-size: cover;
+   background-color: darkcyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     color: white;
+    padding: 10px;
     position: sticky;
     width: 100%;
     top: 0px;
     z-index: 1000;
 
 }
+
+.logo1 img{
+    width: 84px;
+    margin-left: 15px;
+}
+
+
 
 
 .header-left h1 {
@@ -56,14 +62,30 @@ nav ul li a {
     border-radius: 5px;
 }
 
+
 .home-button {
     background-color: white;
     color: black;
     height: 300px;
     padding: 10px;
 }
+.nohome-button {
+    background-color: lightgray;
+    color: black;
+    height: 300px;
+    padding: 10px;
+}
 
-
+.home-button:hover {
+    background-color: black;
+    color: white;
+    
+}
+.nohome-button:hover {
+    background-color: black;
+    color: white;
+    
+}
 /* CSS FOOTER*/
 
 footer{
