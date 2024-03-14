@@ -70,11 +70,13 @@ footer{
     display: block;
     background-color: darkcyan;
     text-align: center;
+/* FIXING FOOTER*/
+    position: sticky;
 
 }
 
 .logo img{
-    width: 100px
+    width: 30px
 }
 
 .redes{
@@ -84,7 +86,7 @@ footer{
 }
 
 .redes img{
-    width: 100px;
+    width: 30px;
 }
 
 
@@ -371,7 +373,7 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 130vh; /*FIXEO DE LOS CUADRADOS BLANCOS*/
     margin-top: 50px;
     margin-bottom: 50px;
 }
