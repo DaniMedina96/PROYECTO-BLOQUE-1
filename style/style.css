@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:'Arial' sans-serif;
+    font-family: Black Arial, Helvetica, sans-serif;
     background-image: url(../assets/Fondo.jpg);
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -98,7 +98,7 @@ footer{
 }
 
 .logo img{
-    width: 30px
+    width: 50px;
 }
 
 .redes{
@@ -108,7 +108,10 @@ footer{
 }
 
 .redes img{
-    width: 30px;
+    width:50px;
+    margin: 5px;
+    padding-top: 10px;
+
 }
 
 
@@ -214,6 +217,15 @@ textarea{
     background-color: darkcyan;
     color: white;
 }
+
+.boton:hover {
+    transform: scale(1.1);
+    transition: 0,5s;
+    box-shadow: 0 0 5px darkcyan;
+    cursor: pointer;
+}
+
+
 .bicis img{
     width: 400px;
     margin: 5px;
@@ -270,7 +282,8 @@ textarea{
 
 .bicis img:hover{
    transform: scale(1.1);
-    transition: 0.5s;
+   
+    transition: 0,5s;
     box-shadow: 0 0 5px darkcyan;
     cursor: pointer;
 }
