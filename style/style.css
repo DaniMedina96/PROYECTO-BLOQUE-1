@@ -178,6 +178,7 @@ footer{
 
 }
 
+
 .formulario{
     display: flex;
     text-align: center;
@@ -286,6 +287,10 @@ textarea{
     transition: 0,5s;
     box-shadow: 0 0 5px darkcyan;
     cursor: pointer;
+}
+
+#vaciar-carrito{
+    background-color:tomato;
 }
 
 
